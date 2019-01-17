@@ -28,6 +28,8 @@ The following software needs to be installed to follow this guide:
 
 `mvn appengine:run`
 
+Depending on your Cloud SDK, this command might fail due to a missing `app-engine-java` component. Simply follow the instructions in the error message to install it and then re-run `mvn appengine:run`.
+
 Then visit http://localhost:8080/
 
 ### Deploying

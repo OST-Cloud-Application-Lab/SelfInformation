@@ -1,5 +1,4 @@
-App Engine Deployment (Java 8)
-==============================
+# App Engine Deployment
 
 This guide explains how to configure our plan Spring Boot [Self Information](https://github.com/HSR-Cloud/SelfInformation/tree/master) application for a Google App Engine deployment.
 
@@ -7,9 +6,9 @@ This guide explains how to configure our plan Spring Boot [Self Information](htt
 
 The following software needs to be installed to follow this guide:
 
-* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* Java 8 or [Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot) (recommended)
 * [Maven](https://maven.apache.org/download.cgi)
-* [Google Cloud SDK](https://cloud.google.com/sdk/) (for the cloud cli)
+* [Google Cloud SDK](https://cloud.google.com/sdk/) (for the cloud CLI)
 
 ## Setup
 

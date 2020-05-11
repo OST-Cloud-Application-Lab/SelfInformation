@@ -1,0 +1,4 @@
+steps:
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: ["app", "deploy", "./src/main/webapp/WEB-INF/appengine-web.xml"]
+    timeout: "1600s"

@@ -52,6 +52,12 @@ default  20190117t103106  1.00           2019-01-17T10:31:13+01:00  STARTED
 
 `gcloud app versions stop 20190117t103106`
 
+### Deleting
+
+To delete the whole application (not just the Google App Engine project), run:
+
+`gcloud projects delete PROJECT-ID`
+
 ## Code and Configuration Changes
 
 [Compare this branch to the master branch](https://github.com/HSR-Cloud/SelfInformation/compare/google-app-engine) to see the changes made for the App Engine deployment.

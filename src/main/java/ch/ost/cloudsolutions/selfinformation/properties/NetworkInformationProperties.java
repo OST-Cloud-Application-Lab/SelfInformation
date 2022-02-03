@@ -1,4 +1,4 @@
-package ch.hsr.cloud.selfinformation.properties;
+package ch.ost.cloudsolutions.selfinformation.properties;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;

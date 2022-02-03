@@ -1,4 +1,4 @@
-package ch.hsr.cloud.selfinformation;
+package ch.ost.cloudsolutions.selfinformation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

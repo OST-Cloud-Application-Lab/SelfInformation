@@ -1,6 +1,6 @@
-package ch.hsr.cloud.selfinformation.providers;
+package ch.ost.cloudsolutions.selfinformation.providers;
 
-import ch.hsr.cloud.selfinformation.properties.SystemProperties;
+import ch.ost.cloudsolutions.selfinformation.properties.SystemProperties;
 
 /**
  * @author dzigerli@hsr.ch (Daniel Zigerlig)

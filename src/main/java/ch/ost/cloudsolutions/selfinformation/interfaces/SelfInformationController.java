@@ -1,4 +1,4 @@
-package ch.hsr.cloud.selfinformation.interfaces;
+package ch.ost.cloudsolutions.selfinformation.interfaces;
 
 import java.net.SocketException;
 import java.util.Arrays;
@@ -8,11 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import ch.hsr.cloud.selfinformation.providers.EnvironmentVariables;
-import ch.hsr.cloud.selfinformation.providers.HardwareInformation;
-import ch.hsr.cloud.selfinformation.providers.InformationProvider;
-import ch.hsr.cloud.selfinformation.providers.NetworkInformation;
-import ch.hsr.cloud.selfinformation.providers.SystemInformation;
+import ch.ost.cloudsolutions.selfinformation.providers.EnvironmentVariables;
+import ch.ost.cloudsolutions.selfinformation.providers.HardwareInformation;
+import ch.ost.cloudsolutions.selfinformation.providers.InformationProvider;
+import ch.ost.cloudsolutions.selfinformation.providers.NetworkInformation;
+import ch.ost.cloudsolutions.selfinformation.providers.SystemInformation;
 
 @Controller
 public class SelfInformationController {

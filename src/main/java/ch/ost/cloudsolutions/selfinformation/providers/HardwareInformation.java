@@ -1,8 +1,8 @@
-package ch.hsr.cloud.selfinformation.providers;
+package ch.ost.cloudsolutions.selfinformation.providers;
 
 import java.util.ArrayList;
 
-import ch.hsr.cloud.selfinformation.properties.HardwareInformationProperties;
+import ch.ost.cloudsolutions.selfinformation.properties.HardwareInformationProperties;
 
 /**
  * @author dzigerli@hsr.ch (Daniel Zigerlig)

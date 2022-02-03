@@ -1,6 +1,6 @@
-package ch.hsr.cloud.selfinformation.providers;
+package ch.ost.cloudsolutions.selfinformation.providers;
 
-import ch.hsr.cloud.selfinformation.properties.EnvironmentVariablesProperties;
+import ch.ost.cloudsolutions.selfinformation.properties.EnvironmentVariablesProperties;
 
 /**
  * @author dzigerli@hsr.ch (Daniel Zigerlig)

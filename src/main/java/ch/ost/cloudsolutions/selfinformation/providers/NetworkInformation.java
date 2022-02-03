@@ -1,8 +1,8 @@
-package ch.hsr.cloud.selfinformation.providers;
+package ch.ost.cloudsolutions.selfinformation.providers;
 
 import java.net.SocketException;
 
-import ch.hsr.cloud.selfinformation.properties.NetworkInformationProperties;
+import ch.ost.cloudsolutions.selfinformation.properties.NetworkInformationProperties;
 
 /**
  * @author dzigerli@hsr.ch (Daniel Zigerlig)

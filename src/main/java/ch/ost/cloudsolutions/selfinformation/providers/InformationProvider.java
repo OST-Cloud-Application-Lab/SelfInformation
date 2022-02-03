@@ -1,4 +1,4 @@
-package ch.hsr.cloud.selfinformation.providers;
+package ch.ost.cloudsolutions.selfinformation.providers;
 
 import java.util.LinkedHashMap;
 

@@ -35,6 +35,8 @@ Then visit http://localhost:8080/
 
 `mvn appengine:deploy`
 
+On the first run, the command will likely fail because billing has to be enabled first. Follow the instructions in the error message and try again.
+
 Then vist https://PROJECT-ID.appspot.com
 
 ### Stopping

@@ -21,7 +21,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: ./mvnw -B package --file pom.xml
     - uses: actions/cache@v2
       id: target-cache
       with:
@@ -56,7 +56,7 @@ jobs:
           build-args: |
             JAR_FILE=self-information-${{ steps.project-version.outputs.version }}.jar
           push: true
-          tags: stefan-ka/ost-self-information-app:latest
+          tags: stefankapferer/ost-self-information-app:latest
       - name: Build and Push (latest)
         if: github.event_name == 'release'
         uses: docker/build-push-action@v5
@@ -66,4 +66,4 @@ jobs:
           build-args: |
             JAR_FILE=self-information-${{ steps.project-version.outputs.version }}.jar
           push: true
-          tags: stefan-ka/ost-self-information-app:${{ github.event.release.tag_name }}
+          tags: stefankapferer/ost-self-information-app:${{ github.event.release.tag_name }}
